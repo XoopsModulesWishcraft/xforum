@@ -1,0 +1,58 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteRule ^forums/(.*?)/(.*?)/images/(.*?)/(.*?)/(.*?)/(.*) modules/xforum/images/$3/$4/$5/$6
+RewriteRule ^forums/(.*?)/(.*?)/images/(.*?)/(.*?)/(.*) modules/xforum/images/$3/$4/$5
+RewriteRule ^forums/(.*?)/(.*?)/images/(.*?)/(.*) modules/xforum/images/$3/$4
+RewriteRule ^forums/(.*?)/(.*?)/images/(.*) modules/xforum/images/$3
+RewriteRule ^forums/(.*?)/images/(.*?)/(.*?)/(.*?)/(.*) modules/xforum/images/$2/$3/$4/$5
+RewriteRule ^forums/(.*?)/images/(.*?)/(.*?)/(.*) modules/xforum/images/$2/$3/$4
+RewriteRule ^forums/(.*?)/images/(.*?)/(.*) modules/xforum/images/$2/$3
+RewriteRule ^forums/(.*?)/images/(.*) modules/xforum/images/$2
+RewriteRule ^forums/images/(.*?)/(.*?)/(.*?)/(.*) modules/xforum/images/$1/$2/$3/$4
+RewriteRule ^forums/images/(.*?)/(.*?)/(.*) modules/xforum/images/$1/$2/$3
+RewriteRule ^forums/images/(.*?)/(.*) modules/xforum/images/$1/$2
+RewriteRule ^forums/images/(.*) modules/xforum/images/$1
+RewriteRule ^forums/include/(.*) modules/xforum/include/$1 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/templates/(.*) modules/xforum/templates/$2  [L,NC,QSA]
+RewriteRule ^forums/(.*?)/include/(.*) modules/include/templates/$2  [L,NC,QSA]
+RewriteRule ^forums/(.*?)/(.*?)/0,([0-9]+),([a-zA-Z0-9]+),([0-9]+),([0-9]+),([0-9]+),([a-zA-Z0-9\ \.\_\-]+),([a-zA-Z0-9\ \.\_\-]+)$ modules/xforum/viewforum.php?forum_name=$1&topic_name=$2&forum=$3&type=$4&mode=$5&since=$6&start=$7&sortorder=$8&sortname=$9 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/(.*?)/([0-9]+),([0-9]+),([0-9]+),([0-9]+),([a-zA-Z0-9]+),(.*?),(.*?)$ modules/xforum/viewtopic.php?forum_name=$1&topic_name=$2&forum=$3&topic_id=$4&post_id=$5&start=$6&type=$7&mode=$8&move=$9
+RewriteRule ^forums/(.*?)/(.*?)/newtopic.php$ modules/xforum/newtopic.php
+RewriteRule ^forums/(.*?)/(.*?)/polls.php$ modules/xforum/polls.php
+RewriteRule ^forums/(.*?)/(.*?)/reply.php$ modules/xforum/reply.php
+RewriteRule ^forums/(.*?)/(.*?)/viewtopic.php$ modules/xforum/viewtopic.php
+RewriteRule ^forums/(.*?)/(.*?)/viewforum.php$ modules/xforum/viewforum.php$2 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/(.*?)/search.php$ modules/xforum/search.php
+RewriteRule ^forums/(.*?)/(.*?)/ratethread.php$ modules/xforum/ratethread.php
+RewriteRule ^forums/(.*?)/(.*?)/post.php$ modules/xforum/post.php
+RewriteRule ^forums/(.*?)/(.*?)/polls.php$ modules/xforum/polls.php
+RewriteRule ^forums/(.*?)/(.*?)/search.php$ modules/xforum/search.php
+RewriteRule ^forums/(.*?)/(.*?)/edit.php$ modules/xforum/edit.php
+RewriteRule ^forums/(.*?)/(.*?)/delete.php$ modules/xforum/delete.php
+RewriteRule ^forums/(.*?)/(.*?)/votepolls.php$ modules/xforum/votepolls.php
+RewriteRule ^forums/(.*?)/0,([0-9]+),([a-zA-Z0-9]+),([0-9]+),([0-9]+),([0-9]+),([a-zA-Z0-9\ \.\_\-]+),([a-zA-Z0-9\ \.\_\-]+)$ modules/xforum/viewforum.php?forum_name=$1&forum=$2&type=$3&mode=$4&since=$5&start=$6&sortorder=$7&sortname=$8 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/newtopic.php$ modules/xforum/newtopic.php [L,NC,QSA]
+RewriteRule ^forums/(.*?)/viewtopic.php$ modules/xforum/viewtopic.php$2 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/viewforum.php$ modules/xforum/viewforum.php$2 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/search.php$ modules/xforum/search.php?$2 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/post.php$ modules/xforum/post.php [L,NC,QSA]
+RewriteRule ^forums/(.*?)/polls.php$ modules/xforum/polls.php
+RewriteRule ^forums/(.*?)/search.php$ modules/xforum/polls.php
+RewriteRule ^forums/(.*?)/polls.php$ modules/xforum/polls.php
+RewriteRule ^forums/(.*?)/votepolls.php$ modules/xforum/votepolls.php
+RewriteRule ^forums/(.*?)/(.*?)/$ modules/xforum/viewtopic.php?forum_name=$1&topic_name=$2 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/ modules/xforum/viewforum.php?forum_name=$1 [L,NC,QSA]
+RewriteRule ^forums/(.*?)/$ modules/xforum/$2 [L,NC,QSA]
+RewriteRule ^forums/viewcat.php$ modules/xforum/viewcat.php [L,NC,QSA]
+RewriteRule ^forums/viewall.php$ modules/xforum/viewall.php [L,NC,QSA]
+RewriteRule ^forums/viewall.php$ modules/xforum/viewall.php [L,NC,QSA]
+RewriteRule ^forums/viewtopic.php$ modules/xforum/viewtopic.php [L,NC,QSA]
+RewriteRule ^forums/viewforum.php$ modules/xforum/viewforum.php [L,NC,QSA]
+RewriteRule ^forums/search.php$ modules/xforum/search.php?$1 [L,NC,QSA]
+RewriteRule ^forums/index.php$ modules/xforum/index.php [L,NC,QSA]
+RewriteRule ^forums/$ modules/xforum/$1 [L,NC,QSA]
+
