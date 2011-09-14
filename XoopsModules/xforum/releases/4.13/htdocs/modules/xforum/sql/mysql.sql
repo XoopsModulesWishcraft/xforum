@@ -22,7 +22,7 @@ CREATE TABLE `xf_archive` (
   `topic_id` int(8) unsigned NOT NULL default '0',
   `post_id` int(10) unsigned NOT NULL default '0',
   `post_text` text NOT NULL
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -41,7 +41,7 @@ CREATE TABLE `xf_attachments` (
   `download` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`attach_id`),
   KEY `post_id` (`post_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -58,7 +58,7 @@ CREATE TABLE `xf_categories` (
   `cat_url` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`cat_id`),
   KEY `cat_order` (`cat_order`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -72,7 +72,7 @@ CREATE TABLE `xf_digest` (
   `digest_content` text,
   PRIMARY KEY  (`digest_id`),
   KEY `digest_time` (`digest_time`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -105,7 +105,7 @@ CREATE TABLE `xf_forums` (
   KEY `cat_forum` (`cat_id`,`forum_order`),
   KEY `forum_order` (`forum_order`),
   KEY `cat_id` (`cat_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -125,7 +125,7 @@ CREATE TABLE `xf_moderates` (
   KEY `uid` (`uid`),
   KEY `mod_end` (`mod_end`),
   KEY `forum_id` (`forum_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -143,7 +143,7 @@ CREATE TABLE `xf_online` (
   KEY `online_forum` (`online_forum`),
   KEY `online_topic` (`online_topic`),
   KEY `online_updated` (`online_updated`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -184,7 +184,7 @@ CREATE TABLE `xf_posts` (
   KEY `post_time` (`post_time`),
   KEY `topicid_postid_pid` (`topic_id`,`post_id`,`pid`),
   FULLTEXT KEY `search` (`subject`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -198,7 +198,7 @@ CREATE TABLE `xf_posts_text` (
   `post_edit` text,
   PRIMARY KEY  (`post_id`),
   FULLTEXT KEY `search` (`post_text`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -216,7 +216,7 @@ CREATE TABLE `xf_reads_forum` (
   KEY `uid` (`uid`),
   KEY `read_item` (`read_item`),
   KEY `post_id` (`post_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -234,7 +234,7 @@ CREATE TABLE `xf_reads_topic` (
   KEY `uid` (`uid`),
   KEY `read_item` (`read_item`),
   KEY `post_id` (`post_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -253,7 +253,7 @@ CREATE TABLE `xf_report` (
   `report_memo` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`report_id`),
   KEY `post_id` (`post_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -289,7 +289,7 @@ CREATE TABLE `xf_topics` (
   KEY `topic_sticky` (`topic_sticky`),
   KEY `topic_digest` (`topic_digest`),
   KEY `digest_time` (`digest_time`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 -- --------------------------------------------------------
 
@@ -308,4 +308,4 @@ CREATE TABLE `xf_votedata` (
   KEY `ratinguser` (`ratinguser`),
   KEY `ratinghostname` (`ratinghostname`),
   KEY `topic_id` (`topic_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
