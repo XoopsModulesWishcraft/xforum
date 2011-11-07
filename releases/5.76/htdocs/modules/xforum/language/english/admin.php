@@ -1,6 +1,6 @@
 <?php
 
-// $Id: admin.php,v 4.04 2008/06/05 15:35:33 wishcraft Exp $
+// $Id$
 //%%%%%%	File Name  index.php   	%%%%%
 define("_AM_XFORUM_FORUMCONF","Forum Configuration");
 define("_AM_XFORUM_ADDAFORUM","Add a Forum");

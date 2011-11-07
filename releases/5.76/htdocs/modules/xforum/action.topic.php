@@ -1,6 +1,6 @@
 <?php
 
-// $Id: action.topic.php,v 4.04 2008/06/05 16:23:24 wishcraft Exp $
+// $Id$
 
 include 'header.php';
 

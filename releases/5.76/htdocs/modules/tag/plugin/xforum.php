@@ -16,7 +16,7 @@
  * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
  * @since           1.0.0
  * @author          Taiwen Jiang <phppp@users.sourceforge.net>
- * @version         $Id: xforum.php 2292 2008-10-12 04:53:18Z phppp $
+ * @version         $Id$
  * @package         tag
  */
 if (!defined('XOOPS_ROOT_PATH')) { exit(); }

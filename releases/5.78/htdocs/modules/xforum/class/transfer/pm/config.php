@@ -1,6 +1,6 @@
 <?php
 
-// $Id: config.php,v 4.03 2005/11/10 19:51:11 wishcraft Exp $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //                XOOPS - PHP Content Management System                      //
 //                    Copyright (c) 2000 XOOPS.org                           //

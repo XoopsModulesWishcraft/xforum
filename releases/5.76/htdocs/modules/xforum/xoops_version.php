@@ -1,6 +1,6 @@
 <?php
 
-// $Id: xoops_version.php,v 4.04 2008/06/05 15:35:59 wishcraft Exp $
+// $Id$
 
 error_reporting(0);
 $modversion['name'] = _MI_XFORUM_NAME;

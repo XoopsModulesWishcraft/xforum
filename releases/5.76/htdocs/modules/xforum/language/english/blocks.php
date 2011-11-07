@@ -1,6 +1,6 @@
 <?php
 
-// $Id: blocks.php,v 4.04 2008/06/05 15:35:33 wishcraft Exp $
+// $Id$
 // Blocks
 if(defined('_MB_XFORUM_DEFINED')) return;
 else define('_MB_XFORUM_DEFINED',true);

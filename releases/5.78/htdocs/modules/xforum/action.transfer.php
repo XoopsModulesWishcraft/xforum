@@ -1,6 +1,6 @@
 <?php
 
-// $Id: action.transfer.php,v 4.04 2008/06/05 16:23:24 wishcraft Exp $
+// $Id$
 // ------------------------------------------------------------------------ //
 // This program is free software; you can redistribute it and/or modify     //
 //  it under the terms of the GNU General Public License 2.0 as published by //

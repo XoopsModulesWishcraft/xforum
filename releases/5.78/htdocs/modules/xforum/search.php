@@ -1,6 +1,6 @@
 <?php
 
-// $Id: search.php,v 4.04 2008/06/05 15:35:59 wishcraft Exp $
+// $Id$
 
 include 'header.php';
 

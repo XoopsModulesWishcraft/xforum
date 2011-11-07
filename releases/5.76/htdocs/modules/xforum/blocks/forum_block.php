@@ -1,6 +1,6 @@
 <?php
 
-// $Id: forum_block.php,v 4.03 2008/06/05 16:23:31 wishcraft Exp $
+// $Id$
 
 if (!defined('XOOPS_ROOT_PATH')) {
 	exit();

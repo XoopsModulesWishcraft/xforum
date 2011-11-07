@@ -1,6 +1,6 @@
 <?php
 
-// $Id: notification.inc.php,v 4.04 2008/06/05 15:35:33 wishcraft Exp $
+// $Id$
 
 if (!defined('XOOPS_ROOT_PATH')) {
 	exit();

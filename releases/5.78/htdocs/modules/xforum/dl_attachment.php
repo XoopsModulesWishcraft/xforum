@@ -1,6 +1,6 @@
 <?php
 
-// $Id: dl_attachment.php,v 4.04 2008/06/05 15:35:59 wishcraft Exp $
+// $Id$
 
 
 ob_start();

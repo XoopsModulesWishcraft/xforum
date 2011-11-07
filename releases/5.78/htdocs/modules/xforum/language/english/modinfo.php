@@ -1,6 +1,6 @@
 <?php
 
-// $Id: modinfo.php,v 4.04 2008/06/05 15:35:33 wishcraft Exp $
+// $Id$
 // Thanks Tom (http://www.wf-projects.com), for correcting the Engligh language package
 
 // Module Info

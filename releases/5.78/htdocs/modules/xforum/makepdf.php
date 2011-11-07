@@ -1,6 +1,6 @@
 <?php
 
-// $Id: makepdf.php,v 4.04 2008/06/05 15:58:07 wishcraft Exp $
+// $Id$
 
 
 error_reporting(0);

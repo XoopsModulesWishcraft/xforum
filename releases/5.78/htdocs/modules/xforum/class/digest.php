@@ -1,6 +1,6 @@
 <?php
 
-// $Id: digest.php,v 4.03 2008/06/05 15:58:14 wishcraft Exp $
+// $Id$
 // ------------------------------------------------------------------------ //
 // XOOPS - PHP Content Management System                      //
 // Copyright (c) 2000 XOOPS.org                           //
