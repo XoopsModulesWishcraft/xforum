@@ -1,6 +1,6 @@
 <?php
 
-// $Id: posttonews.php,v 4.04 2005/05/21 13:26:07 wishcraft Exp $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //                XOOPS - PHP Content Management System                      //
 //                    Copyright (c) 2000 XOOPS.org                           //

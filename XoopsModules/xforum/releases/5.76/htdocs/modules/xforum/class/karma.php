@@ -1,6 +1,6 @@
 <?php
 
-// $Id: karma.php,v 4.03 2008/06/05 15:35:32 wishcraft Exp $
+// $Id$
 
 class xforumKarmaHandler {
     var $user;

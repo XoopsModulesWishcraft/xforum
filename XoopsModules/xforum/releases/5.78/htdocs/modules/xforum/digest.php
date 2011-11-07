@@ -1,6 +1,6 @@
 <?php
 
-// $Id: digest.php,v 4.04 2008/06/05 16:23:24 wishcraft Exp $
+// $Id$
 
 // Why the skip-DB-security check defined only for XMLRPC? We also need it!!! ~_*
 if (!defined('XOOPS_XMLRPC')) define('XOOPS_XMLRPC', 1);

@@ -1,6 +1,6 @@
 <?php
 
-// $Id: viewpost.php,v 4.04 2008/06/05 16:23:59 wishcraft Exp $
+// $Id$
 
 include 'header.php';
 // To enable image auto-resize by js

@@ -1,6 +1,6 @@
 <?php
 
-// $Id: moderate.php,v 4.03 2008/06/05 16:23:33 wishcraft Exp $
+// $Id$
 
 include_once dirname(__FILE__).'/read.php';
 

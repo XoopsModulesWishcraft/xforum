@@ -1,6 +1,6 @@
 <?php
 
-// $Id: post.php,v 4.03 2008/06/05 15:35:32 wishcraft Exp $
+// $Id$
 
  
 if (!defined("XOOPS_ROOT_PATH")) {

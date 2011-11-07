@@ -1,6 +1,6 @@
 <?php
 
-// $Id: index.php,v 1.3 2005/10/19 17:20:28 phppp Exp $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //                XOOPS - PHP Content Management System                      //
 //                    Copyright (c) 2000 XOOPS.org                           //

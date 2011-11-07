@@ -1,6 +1,6 @@
 <?php
 
-// $Id: notification_update.php,v 1.4 2005/04/18 01:22:26 wishcraft Exp $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //                XOOPS - PHP Content Management System                      //
 //                    Copyright (c) 2000 XOOPS.org                           //
