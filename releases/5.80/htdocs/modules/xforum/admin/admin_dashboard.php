@@ -148,6 +148,7 @@
 			echo "<tr class='head'>";
 			echo "<td colspan='6'><input type='submit' value='"._SUBMIT."' name='submit'><input type='hidden' value='saveapprovals' name='op'></td>";
 			echo "</tr>";
+			echo "</table>";
 			xoops_cp_footer();
 	        break;
 	        
