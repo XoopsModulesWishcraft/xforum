@@ -364,4 +364,8 @@ define('_AM_XFORUM_PATHS','File Upload Paths');
 define('_AM_XFORUM_DASHBOARD', 'Dashboard');
 define('_AM_XFORUM_EDITOR', 'Editor');
 define('_AM_XFORUM_ABOUT_MAKEDONATE', 'Make Donation for the Use of XForum');
+if (!defined('_AM_XFORUM_TOPIC'))
+	define('_AM_XFORUM_TOPIC', 'Topic');
+if (!defined('_AM_XFORUM_USER'))
+	define('_AM_XFORUM_USER', 'User');
 ?>
