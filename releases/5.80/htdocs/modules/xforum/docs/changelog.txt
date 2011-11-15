@@ -1,0 +1,10 @@
+========================================
+ 2011/11/15 22:17:00 Version 5.80 STABLE
+========================================
+ - Changed $pathImageAdmin renamed to $GLOBALS['xforumImageAdmin']  (Wishcraft)
+ - Changed $pathImageIcon renamed to $GLOBALS['xforumImageIcon']  (Wishcraft)
+ - Changed $GLOBALS['xoopsModule'] in module renamed to $GLOBALS['xforumModule'] (Wishcraft)
+ - Changed $GLOBALS['xoopsModuleConfig'] in module renamed to $GLOBALS['xforumModuleConfig'] (Wishcraft)
+ - Changed XOOPS 2.5.x Admin GUI  (Wishcraft)
+ - Changed XOOPS 2.5.x Admin GUI Language Constants for Statistics language/english/admin.php  (Wishcraft)
+ - Removed Warnings & Notices in Admin and User Interfaces (wishcraft)
