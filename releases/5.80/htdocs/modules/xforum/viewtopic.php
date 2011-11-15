@@ -159,7 +159,6 @@ if($xoopsTpl->xoops_canUpdateFromFile() && is_dir(XOOPS_THEME_PATH."/".$xoopsCon
 	$xoopsTpl->assign('forum_template_path', XOOPS_ROOT_PATH."/modules/".$GLOBALS['xforumModule']->getVar("dirname")."/templates");
 }
 $xoopsTpl->assign('xoops_pagetitle', $xoops_pagetitle);
-
 if ($GLOBALS['xforumModuleConfig']['wol_enabled']){
 	$online_handler =& xoops_getmodulehandler('online', 'xforum');
 	$online_handler->init($viewtopic_forum, $xforumtopic);
@@ -320,7 +319,6 @@ else {
     }
 
     if ( $total_posts > $GLOBALS['xforumModuleConfig']['posts_per_page'] ) {
-        include XOOPS_ROOT_PATH.'/class/pagenav.php';
         $nav = new XoopsPageNav($total_posts, $GLOBALS['xforumModuleConfig']['posts_per_page'], $start, "start", 'topic_id='.$topic_id.'&amp;viewmode='.$viewmode.'&amp;order='.$order.'&amp;type='.$type."&amp;mode=".$mode);
         $xoopsTpl->assign('forum_page_nav', $nav->renderNav(4));
     } else {
