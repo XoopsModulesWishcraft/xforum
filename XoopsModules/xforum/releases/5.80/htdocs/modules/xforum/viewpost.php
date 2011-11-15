@@ -337,7 +337,6 @@ if(!empty($GLOBALS['xforumModuleConfig']['show_jump'])){
 }
 
 if ( $postCount > $post_perpage ) {
-    include XOOPS_ROOT_PATH.'/class/pagenav.php';
     $nav = new XoopsPageNav($postCount, $post_perpage, $start, "start", 'forum='.$forum_id.'&amp;viewmode='.$viewmode.'&amp;type='.$type.'&amp;uid='.$uid.'&amp;order='.$order."&amp;mode=".$mode);
     $xoopsTpl->assign('pagenav', $nav->renderNav(4));
 } else {

@@ -152,7 +152,6 @@ $xoopsTpl->assign('current_link', $current_link);
 $all_topics = $forum_handler->getTopicCount($viewall_forums, $startdate, $type);
 unset($viewall_forums);
 if ( $all_topics > $GLOBALS['xoopsModuleConfig']['topics_per_page']) {
-	include XOOPS_ROOT_PATH.'/class/pagenav.php';
 	$nav = new XoopsPageNav($all_topics, $GLOBALS['xoopsModuleConfig']['topics_per_page'], $start, "start", 'sortname='.$sortname.'&amp;sortorder='.$sortorder.'&amp;since='.$since."&amp;type=$type&amp;mode=".$mode);
 	$xoopsTpl->assign('forum_pagenav', $nav->renderNav(4));
 } else {
