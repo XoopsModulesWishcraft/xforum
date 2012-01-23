@@ -14,31 +14,42 @@ function &forum_search($queryarray, $andor, $limit, $offset, $userid, $xforums =
 	$uid = (is_object($GLOBALS['xoopsUser'])&&$GLOBALS['xoopsUser']->isactive())?$GLOBALS['xoopsUser']->getVar('uid'):0;
 
 	if(!isset($allowedForums[$uid])){
+		
 		$GLOBALS['forum_handler'] = xoops_getmodulehandler('forum', 'xforum');
 		if (is_array($xforums) && count($xforums) > 0) {
 			$xforums = array_map('intval', $xforums);
 			foreach($xforums as $xforumid){
+				
 				$_forum = $GLOBALS['forum_handler']->get($xforumid);
-				if($forum_handler->getPermission($_forum)) {
+				
+				if($GLOBALS['forum_handler']->getPermission($_forum)) {
 					$allowedForums[$uid][$xforumid] = $_forum;
 				}
+				
 				unset($_forum);
 			}
 		}
 		elseif (is_numeric($xforums) && $xforums > 0) {
+			
 			$xforumid = $xforums;
 			$_forum = $GLOBALS['forum_handler']->get($xforumid);
-			if($forum_handler->getPermission($_forum)) {
+			
+			if($GLOBALS['forum_handler']->getPermission($_forum)) {
 				$allowedForums[$uid][$xforumid] = $_forum;
 			}
+			
 			unset($_forum);
 		}
 		else {
+			
 			$xforums = $GLOBALS['forum_handler']->getForums();
+			
 			foreach($xforums as $xforumid => $_forum){
-				if($forum_handler->getPermission($_forum)) {
+				
+				if($GLOBALS['forum_handler']->getPermission($_forum)) {
 					$allowedForums[$uid][$xforumid] = $_forum;
 				}
+				
 				unset($_forum);
 			}
 			unset($xforums);

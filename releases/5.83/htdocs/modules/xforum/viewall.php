@@ -37,10 +37,11 @@ if ($GLOBALS['xforumModuleConfig']['htaccess']&&empty($_REQUEST['submit'])) {
 
 $GLOBALS['xoopsOption']['template_main'] = 'xforum_viewall.html';
 
+include XOOPS_ROOT_PATH."/header.php";
+
 if(!empty($GLOBALS['xforumModuleConfig']['rss_enable'])){
 	$GLOBALS['xoTheme']->addLink('alternate', XOOPS_URL.'/modules/'.$GLOBALS['xforumModule']->getVar('dirname').'/rss.php', array('type'=>"application/rss+xml", 'title' => $GLOBALS['xforumModule']->getVar('name')));
 }
-include XOOPS_ROOT_PATH."/header.php";
 
 
 $GLOBALS['forum_handler'] = xoops_getmodulehandler('forum', 'xforum');
