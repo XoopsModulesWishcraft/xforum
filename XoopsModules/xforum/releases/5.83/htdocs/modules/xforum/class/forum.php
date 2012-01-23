@@ -684,18 +684,21 @@ class xforumForumHandler extends XoopsPersistableObjectHandler
         
         static $_cachedPerms;
 		include_once XOOPS_ROOT_PATH.'/modules/xforum/include/functions.php';
-
+		
         if($type == "all") return true;
+        
         if (forum_isAdministrator()) return true;
+        
         if (!is_object($xforum)) $xforum = $this->get($xforum);
+        
         if ($xforum->getVar('forum_type')) return false;// if forum inactive, all has no access except admin
-
+		
 		if(!empty($checkCategory)){
             $category_handler = xoops_getmodulehandler('category', 'xforum');
             $categoryPerm = $category_handler->getPermission($xforum->getVar('cat_id'));
         	if (!$categoryPerm) return false;
     	}
-
+		
         $type = strtolower($type);
         if ("moderate" == $type) {
             $permission = (forum_isModerator($xforum))?1:0;
@@ -704,11 +707,15 @@ class xforumForumHandler extends XoopsPersistableObjectHandler
            	$perm_type = 'forum';
             $perm_item = (in_array($type, $perms))?'forum_' . $type:"forum_access";
 			if (!isset($_cachedPerms[$perm_type])) {
+				
 				$getpermission = xoops_getmodulehandler('permission', 'xforum');
+				
 				$_cachedPerms[$perm_type] = $getpermission->getPermissions($perm_type);
 			}
+			
         	$permission = (isset($_cachedPerms[$perm_type][$xforum->getVar('forum_id')][$perm_item])) ? 1 : 0;
         }
+        
         return $permission;
     }
     

@@ -277,11 +277,14 @@ function forum_isAdministrator($user=-1, $mid=0)
 	if(!$mid){
 		if (!isset($forum_mid)) {
 		    if(is_object($GLOBALS['xforumModule'])&& 'xforum' == $GLOBALS['xforumModule']->dirname()){
+		    	
 		    	$forum_mid = $GLOBALS['xforumModule']->getVar('mid');
 		    }else{
+		    	
 		        $modhandler = xoops_gethandler('module');
+		        
 		        $GLOBALS['xforumModule'] = $modhandler->getByDirname('xforum');
-			    $forum_mid = $xforum->getVar('mid');
+			    $forum_mid = $GLOBALS['xforumModule']->getVar('mid');
 			    unset($xforum);
 		    }
 		}
@@ -657,10 +660,10 @@ if (!function_exists('chronolabs_inline')) {
 	function chronolabs_inline($flash = false)
 	{
 	
-		$ret = '<div style="clear:both; height 10px;">&nbsp;</div>
+		/*$ret = '<div style="clear:both; height 10px;">&nbsp;</div>
 	<div style="clear:both; height 10px;"><center><img src="http://www.chronolabs.org.au/images/banners/loader/supportimage.php?flash=false" /></center></div>
 	<div style="clear:both;">Chronolabs offer limited free support should you want some development work done please contact us <a href="http://www.chronolabs.org.au/liaise/">on the question for a quote form.</a> We offer a wide range of XOOPS Professional Solution and have options for Basic SEO and marketing of your site as well as Search Engine Optimization for <a href="http://www.xoops.org/">XOOPS</a>. If you are looking for work done with this module/application or are looking for development on your site please contact us.</div>';
-		return $ret;
+		return $ret;*/
 	}
 }
 //trabis
