@@ -194,31 +194,31 @@ define("_AM_XFORUM_PERM_SETBYGROUP","Set permissions directly by group");
 
 // admin_forum_prune.php
 
-define ("_AM_XFORUM_PRUNE_RESULTS_TITLE","Prune Results");
-define ("_AM_XFORUM_PRUNE_RESULTS_TOPICS","Pruned Topics");
-define ("_AM_XFORUM_PRUNE_RESULTS_POSTS","Pruned Posts");
-define ("_AM_XFORUM_PRUNE_RESULTS_FORUMS","Pruned Forums");
-define ("_AM_XFORUM_PRUNE_STORE","Store posts in this forum instead of deleting them");
-define ("_AM_XFORUM_PRUNE_ARCHIVE","Make a copy of posts into Archive");
-define ("_AM_XFORUM_PRUNE_FORUMSELERROR","You forgot to select forum(s) to prune");
+define("_AM_XFORUM_PRUNE_RESULTS_TITLE","Prune Results");
+define("_AM_XFORUM_PRUNE_RESULTS_TOPICS","Pruned Topics");
+define("_AM_XFORUM_PRUNE_RESULTS_POSTS","Pruned Posts");
+define("_AM_XFORUM_PRUNE_RESULTS_FORUMS","Pruned Forums");
+define("_AM_XFORUM_PRUNE_STORE","Store posts in this forum instead of deleting them");
+define("_AM_XFORUM_PRUNE_ARCHIVE","Make a copy of posts into Archive");
+define("_AM_XFORUM_PRUNE_FORUMSELERROR","You forgot to select forum(s) to prune");
 
-define ("_AM_XFORUM_PRUNE_DAYS","Remove topics without replies in:");
-define ("_AM_XFORUM_PRUNE_FORUMS","Forums to be pruned");
-define ("_AM_XFORUM_PRUNE_STICKY","Keep Sticky topics");
-define ("_AM_XFORUM_PRUNE_DIGEST","Keep Digest topics");
-define ("_AM_XFORUM_PRUNE_LOCK","Keep Locked topics");
-define ("_AM_XFORUM_PRUNE_HOT","Keep topics with more than this number of replies");
-define ("_AM_XFORUM_PRUNE_SUBMIT","Ok");
-define ("_AM_XFORUM_PRUNE_RESET","Reset");
-define ("_AM_XFORUM_PRUNE_YES","Yes");
-define ("_AM_XFORUM_PRUNE_NO","No");
-define ("_AM_XFORUM_PRUNE_WEEK","A Week");
-define ("_AM_XFORUM_PRUNE_2WEEKS","Two Weeks");
-define ("_AM_XFORUM_PRUNE_MONTH","A Month");
-define ("_AM_XFORUM_PRUNE_2MONTH","Two Months");
-define ("_AM_XFORUM_PRUNE_4MONTH","Four Months");
-define ("_AM_XFORUM_PRUNE_YEAR","A Year");
-define ("_AM_XFORUM_PRUNE_2YEARS","2 Years");
+define("_AM_XFORUM_PRUNE_DAYS","Remove topics without replies in:");
+define("_AM_XFORUM_PRUNE_FORUMS","Forums to be pruned");
+define("_AM_XFORUM_PRUNE_STICKY","Keep Sticky topics");
+define("_AM_XFORUM_PRUNE_DIGEST","Keep Digest topics");
+define("_AM_XFORUM_PRUNE_LOCK","Keep Locked topics");
+define("_AM_XFORUM_PRUNE_HOT","Keep topics with more than this number of replies");
+define("_AM_XFORUM_PRUNE_SUBMIT","Ok");
+define("_AM_XFORUM_PRUNE_RESET","Reset");
+define("_AM_XFORUM_PRUNE_YES","Yes");
+define("_AM_XFORUM_PRUNE_NO","No");
+define("_AM_XFORUM_PRUNE_WEEK","A Week");
+define("_AM_XFORUM_PRUNE_2WEEKS","Two Weeks");
+define("_AM_XFORUM_PRUNE_MONTH","A Month");
+define("_AM_XFORUM_PRUNE_2MONTH","Two Months");
+define("_AM_XFORUM_PRUNE_4MONTH","Four Months");
+define("_AM_XFORUM_PRUNE_YEAR","A Year");
+define("_AM_XFORUM_PRUNE_2YEARS","2 Years");
 
 // About.php constants
 define('_AM_XFORUM_AUTHOR_INFO', "Author Informations");
