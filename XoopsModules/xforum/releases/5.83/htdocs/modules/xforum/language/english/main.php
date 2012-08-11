@@ -29,7 +29,7 @@ define('_MD_BOARD_DISCLAIMER','Board Disclaimer');
 
 //index.php
 define('_MD_ADMINCP','Admin CP');
-define('_MD_XFORUM', 'Forum');
+define('_MD_XFORUM','Forum');
 define('_MD_WELCOME','Welcome to %s Forum.');
 define('_MD_TOPICS','Topics');
 define('_MD_POSTS','Posts');
@@ -51,7 +51,7 @@ define('_MD_SUBJECT','Subject');
 define('_MD_INACTIVEFORUM_NEWPOSTS','Inactive forum with new posts');
 define('_MD_INACTIVEFORUM_NONEWPOSTS','Inactive forum without new posts');
 define('_MD_SUBFORUMS','Subforums');
-define('_MD_MAINFORUMOPT', 'Main Options');
+define('_MD_MAINFORUMOPT','Main Options');
 define("_MD_PENDING_POSTS_FOR_AUTH","Posts pending approval:");
 
 
@@ -66,7 +66,7 @@ define('_MD_REGTOPOST','Register To Post');
 
 //search.php
 define('_MD_SEARCHALLFORUMS','Search All Forums');
-define('_MD_XFORUMC', 'Forum');
+define('_MD_XFORUMC','Forum');
 define('_MD_AUTHORC','Autor:');
 define('_MD_SORTBY','Sort by');
 define('_MD_DATE','Date');
@@ -99,34 +99,34 @@ define('_MD_FROMLASTHOURS','From last %s hours');
 define('_MD_FROMLASTDAYS','From last %s days');
 define('_MD_THELASTYEAR','From the last year');
 define('_MD_BEGINNING','From the beginning');
-define('_MD_SEARCHTHISFORUM', 'Search This Forum');
+define('_MD_SEARCHTHISFORUM','Search This Forum');
 define('_MD_TOPIC_SUBJECTC','Topic Prefix:');
 
 
 define('_MD_RATINGS','Ratings');
-define("_MD_CAN_ACCESS", "You <strong>can</strong> access the forum.<br />");
-define("_MD_CANNOT_ACCESS", "You <strong>cannot</strong> access the forum.<br />");
-define("_MD_CAN_POST", "You <strong>can</strong> start a new topic.<br />");
-define("_MD_CANNOT_POST", "You <strong>cannot</strong> start a new topic.<br />");
-define("_MD_CAN_VIEW", "You <strong>can</strong> view topic.<br />");
-define("_MD_CANNOT_VIEW", "You <strong>cannot</strong> view topic.<br />");
-define("_MD_CAN_REPLY", "You <strong>can</strong> reply to posts.<br />");
-define("_MD_CANNOT_REPLY", "You <strong>cannot</strong> reply to posts.<br />");
-define("_MD_CAN_EDIT", "You <strong>can</strong> edit your posts.<br />");
-define("_MD_CANNOT_EDIT", "You <strong>cannot</strong> edit your posts.<br />");
-define("_MD_CAN_DELETE", "You <strong>can</strong> delete your posts.<br />");
-define("_MD_CANNOT_DELETE", "You <strong>cannot</strong> delete your posts.<br />");
-define("_MD_CAN_ADDPOLL", "You <strong>can</strong> add new polls.<br />");
-define("_MD_CANNOT_ADDPOLL", "You <strong>cannot</strong> add new polls.<br />");
-define("_MD_CAN_VOTE", "You <strong>can</strong> vote in polls.<br />");
-define("_MD_CANNOT_VOTE", "You <strong>cannot</strong> vote in polls.<br />");
-define("_MD_CAN_ATTACH", "You <strong>can</strong> attach files to posts.<br />");
-define("_MD_CANNOT_ATTACH", "You <strong>cannot</strong> attach files to posts.<br />");
-define("_MD_CAN_NOAPPROVE", "You <strong>can</strong> post without approval.<br />");
-define("_MD_CANNOT_NOAPPROVE", "You <strong>cannot</strong> post without approval.<br />");
+define("_MD_CAN_ACCESS","You <strong>can</strong> access the forum.<br />");
+define("_MD_CANNOT_ACCESS","You <strong>cannot</strong> access the forum.<br />");
+define("_MD_CAN_POST","You <strong>can</strong> start a new topic.<br />");
+define("_MD_CANNOT_POST","You <strong>cannot</strong> start a new topic.<br />");
+define("_MD_CAN_VIEW","You <strong>can</strong> view topic.<br />");
+define("_MD_CANNOT_VIEW","You <strong>cannot</strong> view topic.<br />");
+define("_MD_CAN_REPLY","You <strong>can</strong> reply to posts.<br />");
+define("_MD_CANNOT_REPLY","You <strong>cannot</strong> reply to posts.<br />");
+define("_MD_CAN_EDIT","You <strong>can</strong> edit your posts.<br />");
+define("_MD_CANNOT_EDIT","You <strong>cannot</strong> edit your posts.<br />");
+define("_MD_CAN_DELETE","You <strong>can</strong> delete your posts.<br />");
+define("_MD_CANNOT_DELETE","You <strong>cannot</strong> delete your posts.<br />");
+define("_MD_CAN_ADDPOLL","You <strong>can</strong> add new polls.<br />");
+define("_MD_CANNOT_ADDPOLL","You <strong>cannot</strong> add new polls.<br />");
+define("_MD_CAN_VOTE","You <strong>can</strong> vote in polls.<br />");
+define("_MD_CANNOT_VOTE","You <strong>cannot</strong> vote in polls.<br />");
+define("_MD_CAN_ATTACH","You <strong>can</strong> attach files to posts.<br />");
+define("_MD_CANNOT_ATTACH","You <strong>cannot</strong> attach files to posts.<br />");
+define("_MD_CAN_NOAPPROVE","You <strong>can</strong> post without approval.<br />");
+define("_MD_CANNOT_NOAPPROVE","You <strong>cannot</strong> post without approval.<br />");
 define("_MD_IMTOPICS","Important Topics");
 define("_MD_NOTIMTOPICS","Forum Topics");
-define('_MD_XFORUMOPTION', 'Forum options');
+define('_MD_XFORUMOPTION','Forum options');
 
 define('_MD_VAUP','View all unreplied posts');
 define('_MD_VANP','View all new posts');
@@ -166,12 +166,12 @@ define('_MD_AIM','AIM');
 define('_MD_YIM','YIM');
 define('_MD_MSNM','MSNM');
 define('_MD_ICQ','ICQ');
-define('_MD_PRINT_TOPIC_LINK', 'URL for this discussion');
+define('_MD_PRINT_TOPIC_LINK','URL for this discussion');
 define('_MD_ADDTOLIST','Add to your Contact List');
-define('_MD_TOPICOPT', 'Topic options');
-define('_MD_VIEWMODE', 'View mode');
-define('_MD_NEWEST', 'Newest First');
-define('_MD_OLDEST', 'Oldest First');
+define('_MD_TOPICOPT','Topic options');
+define('_MD_VIEWMODE','View mode');
+define('_MD_NEWEST','Newest First');
+define('_MD_OLDEST','Oldest First');
 
 define('_MD_XFORUMSEARCH','Search Forum');
 
@@ -186,8 +186,8 @@ define('_MD_RATE4','Good');
 define('_MD_RATE5','Excellent');
 
 define('_MD_TOPICOPTION','Topic options');
-define('_MD_KARMA_REQUIREMENT', 'Your personal karm %s does not reach the required karma %s. <br /> Please try later.');
-define('_MD_REPLY_REQUIREMENT', 'To view this post, you must login and reply first.');
+define('_MD_KARMA_REQUIREMENT','Your personal karm %s does not reach the required karma %s. <br /> Please try later.');
+define('_MD_REPLY_REQUIREMENT','To view this post, you must login and reply first.');
 define('_MD_TOPICOPTIONADMIN','Topic Admin options');
 define('_MD_POLLOPTIONADMIN','Poll Admin options');
 
@@ -279,7 +279,7 @@ define('_MD_DOSMILEY','Enable Smiley');
 define('_MD_DOXCODE','Enable Xoops Code');
 define('_MD_DOBR','Enable line break (Suggest to turn off if HTML enabled)');
 define('_MD_DOHTML','Enable html tags');
-define('_MD_NEWPOSTNOTIFY', 'Notify me of new posts in this thread');
+define('_MD_NEWPOSTNOTIFY','Notify me of new posts in this thread');
 define('_MD_ATTACHSIG','Attach Signature');
 define('_MD_POST','Post');
 define('_MD_SUBMIT','Submit');
@@ -344,13 +344,13 @@ define('_MD_FROM','From');
 define('_MD_JOINED','Joined');
 define('_MD_ONLINE','Online');
 define('_MD_OFFLINE','Offline');
-define('_MD_FLAT', 'Flat');
+define('_MD_FLAT','Flat');
 
 
 // online.php
-define('_MD_USERS_ONLINE', 'Users Online:');
-define('_MD_ANONYMOUS_USERS', 'Anonymous Users');
-define('_MD_REGISTERED_USERS', 'Registered Users: ');
+define('_MD_USERS_ONLINE','Users Online:');
+define('_MD_ANONYMOUS_USERS','Anonymous Users');
+define('_MD_REGISTERED_USERS','Registered Users: ');
 define('_MD_BROWSING_FORUM','Users browsing forum');
 define('_MD_TOTAL_ONLINE','Total %d Users Online.');
 define('_MD_ADMINISTRATOR','Administrator');
@@ -359,10 +359,10 @@ define('_MD_NO_SUCH_FILE','File not exist!');
 define('_MD_ERROR_UPATEATTACHMENT','Error occur when updating attachment');
 
 // ratethread.php
-define("_MD_CANTVOTEOWN", "You cannot vote on the topic you submitted.<br />All votes are logged and reviewed.");
-define("_MD_VOTEONCE", "Please do not vote for the same topic more than once.");
-define("_MD_VOTEAPPRE", "Your vote is appreciated.");
-define("_MD_THANKYOU", "Thank you for taking the time to vote here at %s"); // %s is your site name
+define("_MD_CANTVOTEOWN","You cannot vote on the topic you submitted.<br />All votes are logged and reviewed.");
+define("_MD_VOTEONCE","Please do not vote for the same topic more than once.");
+define("_MD_VOTEAPPRE","Your vote is appreciated.");
+define("_MD_THANKYOU","Thank you for taking the time to vote here at %s"); // %s is your site name
 define("_MD_VOTES","Votes");
 define("_MD_NOVOTERATE","You did not rate this Topic");
 
@@ -370,37 +370,37 @@ define("_MD_NOVOTERATE","You did not rate this Topic");
 // polls.php
 define("_MD_POLL_DBUPDATED","Database Updated Successfully!");
 define("_MD_POLL_POLLCONF","Polls Configuration");
-define("_MD_POLL_POLLSLIST", "Polls List");
-define("_MD_POLL_AUTHOR", "Author of this poll");
-define("_MD_POLL_DISPLAYBLOCK", "Display in block?");
-define("_MD_POLL_POLLQUESTION", "Poll Question");
-define("_MD_POLL_VOTERS", "Total voters");
-define("_MD_POLL_VOTES", "Total votes");
-define("_MD_POLL_EXPIRATION", "Expiration");
-define("_MD_POLL_EXPIRED", "Expired");
+define("_MD_POLL_POLLSLIST","Polls List");
+define("_MD_POLL_AUTHOR","Author of this poll");
+define("_MD_POLL_DISPLAYBLOCK","Display in block?");
+define("_MD_POLL_POLLQUESTION","Poll Question");
+define("_MD_POLL_VOTERS","Total voters");
+define("_MD_POLL_VOTES","Total votes");
+define("_MD_POLL_EXPIRATION","Expiration");
+define("_MD_POLL_EXPIRED","Expired");
 define("_MD_POLL_VIEWLOG","View log");
-define("_MD_POLL_CREATNEWPOLL", "Create new poll");
-define("_MD_POLL_POLLDESC", "Poll description");
-define("_MD_POLL_DISPLAYORDER", "Display order");
-define("_MD_POLL_ALLOWMULTI", "Allow multiple selections?");
-define("_MD_POLL_NOTIFY", "Notify the poll author when expired?");
-define("_MD_POLL_POLLOPTIONS", "Options");
-define("_MD_POLL_EDITPOLL", "Edit poll");
-define("_MD_POLL_FORMAT", "Format: yyyy-mm-dd hh:mm:ss");
-define("_MD_POLL_CURRENTTIME", "Current time is %s");
-define("_MD_POLL_EXPIREDAT", "Expired at %s");
-define("_MD_POLL_RESTART", "Restart this poll");
-define("_MD_POLL_ADDMORE", "Add more options");
-define("_MD_POLL_RUSUREDEL", "Are you sure you want to delete this poll and all its comments?");
-define("_MD_POLL_RESTARTPOLL", "Restart poll");
-define("_MD_POLL_RESET", "Reset all logs for this poll?");
+define("_MD_POLL_CREATNEWPOLL","Create new poll");
+define("_MD_POLL_POLLDESC","Poll description");
+define("_MD_POLL_DISPLAYORDER","Display order");
+define("_MD_POLL_ALLOWMULTI","Allow multiple selections?");
+define("_MD_POLL_NOTIFY","Notify the poll author when expired?");
+define("_MD_POLL_POLLOPTIONS","Options");
+define("_MD_POLL_EDITPOLL","Edit poll");
+define("_MD_POLL_FORMAT","Format: yyyy-mm-dd hh:mm:ss");
+define("_MD_POLL_CURRENTTIME","Current time is %s");
+define("_MD_POLL_EXPIREDAT","Expired at %s");
+define("_MD_POLL_RESTART","Restart this poll");
+define("_MD_POLL_ADDMORE","Add more options");
+define("_MD_POLL_RUSUREDEL","Are you sure you want to delete this poll and all its comments?");
+define("_MD_POLL_RESTARTPOLL","Restart poll");
+define("_MD_POLL_RESET","Reset all logs for this poll?");
 define("_MD_POLL_ADDPOLL","Add Poll");
 define("_MD_POLLMODULE_ERROR","xoopspoll module not available for use");
 
 //report.php
-define("_MD_REPORTED", "Thank you for reporting this post/thread! A moderator will look into your report shortly.");
-define("_MD_REPORT_ERROR", "Error occured while sending the report.");
-define("_MD_REPORT_TEXT", "Report message:");
+define("_MD_REPORTED","Thank you for reporting this post/thread! A moderator will look into your report shortly.");
+define("_MD_REPORT_ERROR","Error occured while sending the report.");
+define("_MD_REPORT_TEXT","Report message:");
 
 define("_MD_PDF","Create PDF from Post");
 define("_MD_PDF_PAGE","Page %s");
@@ -447,33 +447,33 @@ define("_MD_TYPE_PENDING","Pending");
 define("_MD_TYPE_DELETED","Deleted");
 define("_MD_TYPE_SUSPEND","Suspension");
 
-define("_MD_DBUPDATED", "Database Updated Successfully!");
+define("_MD_DBUPDATED","Database Updated Successfully!");
 
-define("_MD_SUSPEND_SUBJECT", "User %s is suspended for %d days");
-define("_MD_SUSPEND_TEXT", "User %s is suspended for %d days due to:<br />[quote]%s[/quote]<br /><br />The suspension is valid till %s");
-define("_MD_SUSPEND_UID", "User ID");
-define("_MD_SUSPEND_IP", "IP segments (full or segments)");
-define("_MD_SUSPEND_DURATION", "Suspension duration (Days)");
-define("_MD_SUSPEND_DESC", "Suspension reason");
-define("_MD_SUSPEND_LIST", "Suspension list");
-define("_MD_SUSPEND_START", "Start");
-define("_MD_SUSPEND_EXPIRE", "End");
-define("_MD_SUSPEND_SCOPE", "Scope");
-define("_MD_SUSPEND_MANAGEMENT", "Moderation management");
-define("_MD_SUSPEND_NOACCESS", "Your ID or IP has been suspended");
+define("_MD_SUSPEND_SUBJECT","User %s is suspended for %d days");
+define("_MD_SUSPEND_TEXT","User %s is suspended for %d days due to:<br />[quote]%s[/quote]<br /><br />The suspension is valid till %s");
+define("_MD_SUSPEND_UID","User ID");
+define("_MD_SUSPEND_IP","IP segments (full or segments)");
+define("_MD_SUSPEND_DURATION","Suspension duration (Days)");
+define("_MD_SUSPEND_DESC","Suspension reason");
+define("_MD_SUSPEND_LIST","Suspension list");
+define("_MD_SUSPEND_START","Start");
+define("_MD_SUSPEND_EXPIRE","End");
+define("_MD_SUSPEND_SCOPE","Scope");
+define("_MD_SUSPEND_MANAGEMENT","Moderation management");
+define("_MD_SUSPEND_NOACCESS","Your ID or IP has been suspended");
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
-// insert double '\' before 't', 'r', 'n'
-define("_MD_TODAY", "\T\o\d\a\y G:i:s");
-define("_MD_YESTERDAY", "\Y\e\s\\t\e\\r\d\a\y G:i:s");
-define("_MD_MONTHDAY", "n/j G:i:s");
-define("_MD_YEARMONTHDAY", "Y/n/j G:i");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
+// insert double '\' before 't','r','n'
+define("_MD_TODAY","\T\o\d\a\y G:i:s");
+define("_MD_YESTERDAY","\Y\e\s\\t\e\\r\d\a\y G:i:s");
+define("_MD_MONTHDAY","n/j G:i:s");
+define("_MD_YEARMONTHDAY","Y/n/j G:i");
 
 //PDF
-define('XFORUM_PDF_SUBJECT', 'Subject: ');
-define('XFORUM_PDF_TOPIC', 'Topic: ');
-define('XFORUM_PDF_AUTHOR', 'Author: ');
-define('XFORUM_PDF_DATE', 'Date: ');
+define('XFORUM_PDF_SUBJECT','Subject: ');
+define('XFORUM_PDF_TOPIC','Topic: ');
+define('XFORUM_PDF_AUTHOR','Author: ');
+define('XFORUM_PDF_DATE','Date: ');
 
 // For user info
 // If you have customized userbar, define here.
@@ -492,19 +492,19 @@ class User_language extends User
     	$userbar = array();
         $userbar[] = array("link"=>XOOPS_URL . "/userinfo.php?uid=" . $user->getVar("uid"), "name" =>_PROFILE);
 		if (is_object($GLOBALS['xoopsUser']))
-        $userbar[]= array("link"=>"javascript:void openWithSelfMain('" . XOOPS_URL . "/pmlite.php?send2=1&amp;to_userid=" . $user->getVar("uid") . "', 'pmlite', 450, 380);", "name"=>_MD_PM);
+        $userbar[]= array("link"=>"javascript:void openWithSelfMain('" . XOOPS_URL . "/pmlite.php?send2=1&amp;to_userid=" . $user->getVar("uid") . "','pmlite', 450, 380);","name"=>_MD_PM);
         if($user->getVar('user_viewemail') || $GLOBALS['isadmin'])
-        $userbar[]= array("link"=>"javascript:void window.open('mailto:" . $user->getVar('email') . "', 'new');", "name"=>_MD_EMAIL);
+        $userbar[]= array("link"=>"javascript:void window.open('mailto:" . $user->getVar('email') . "','new');","name"=>_MD_EMAIL);
         if($user->getVar('url'))
-        $userbar[]= array("link"=>"javascript:void window.open('" . $user->getVar('url') . "', 'new');", "name"=>_MD_WWW);
+        $userbar[]= array("link"=>"javascript:void window.open('" . $user->getVar('url') . "','new');","name"=>_MD_WWW);
         if($user->getVar('user_icq'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://wwp.icq.com/scripts/search.dll?to=" . $user->getVar('user_icq')."', 'new');", "name" => _MD_ICQ);
+        $userbar[]= array("link"=>"javascript:void window.open('http://wwp.icq.com/scripts/search.dll?to=" . $user->getVar('user_icq')."','new');","name" => _MD_ICQ);
         if($user->getVar('user_aim'))
-        $userbar[]= array("link"=>"javascript:void window.open('aim:goim?screenname=" . $user->getVar('user_aim') . "&amp;message=Hi+" . $user->getVar('user_aim') . "+Are+you+there?" . "', 'new');", "name"=>_MD_AIM);
+        $userbar[]= array("link"=>"javascript:void window.open('aim:goim?screenname=" . $user->getVar('user_aim') . "&amp;message=Hi+" . $user->getVar('user_aim') . "+Are+you+there?" . "','new');","name"=>_MD_AIM);
         if($user->getVar('user_yim'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://edit.yahoo.com/config/send_webmesg?.target=" . $user->getVar('user_yim') . "&.src=pg" . "', 'new');", "name"=> _MD_YIM);
+        $userbar[]= array("link"=>"javascript:void window.open('http://edit.yahoo.com/config/send_webmesg?.target=" . $user->getVar('user_yim') . "&.src=pg" . "','new');","name"=> _MD_YIM);
         if($user->getVar('user_msnm'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://members.msn.com?mem=" . $user->getVar('user_msnm') . "', 'new');", "name" => _MD_MSNM);
+        $userbar[]= array("link"=>"javascript:void window.open('http://members.msn.com?mem=" . $user->getVar('user_msnm') . "','new');","name" => _MD_MSNM);
 		return $userbar;
     }
 }
@@ -514,5 +514,5 @@ define('_MD_DELETED','Deleted Posts');
 define('_MD_PENDING','Pending Posts');
 
 //Version 5.79
-define('_PL_VOTE', 'Vote');
+define('_PL_VOTE','Vote');
 ?>
