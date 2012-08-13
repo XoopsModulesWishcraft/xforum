@@ -225,21 +225,21 @@ define("_AM_XFORUM_PRUNE_YEAR","A Year");
 define("_AM_XFORUM_PRUNE_2YEARS","2 Years");
 
 // About.php constants
-define('_AM_XFORUM_AUTHOR_INFO', "Author Informations");
-define('_AM_XFORUM_AUTHOR_NAME', "Author");
-define('_AM_XFORUM_AUTHOR_WEBSITE', "Author's website");
-define('_AM_XFORUM_AUTHOR_EMAIL', "Author's email");
-define('_AM_XFORUM_AUTHOR_CREDITS', "Credits");
-define('_AM_XFORUM_MODULE_INFO', "Module Development Information");
-define('_AM_XFORUM_MODULE_STATUS', "Status");
-define('_AM_XFORUM_MODULE_DEMO', "Demo Site");
-define('_AM_XFORUM_MODULE_SUPPORT', "Official support site");
-define('_AM_XFORUM_MODULE_BUG', "Report a bug for this module");
-define('_AM_XFORUM_MODULE_FEATURE', "Suggest a new feature for this module");
-define('_AM_XFORUM_MODULE_DISCLAIMER', "Disclaimer");
-define('_AM_XFORUM_AUTHOR_WORD', "The Author's Word");
+define('_AM_XFORUM_AUTHOR_INFO',"Author Informations");
+define('_AM_XFORUM_AUTHOR_NAME',"Author");
+define('_AM_XFORUM_AUTHOR_WEBSITE',"Author's website");
+define('_AM_XFORUM_AUTHOR_EMAIL',"Author's email");
+define('_AM_XFORUM_AUTHOR_CREDITS',"Credits");
+define('_AM_XFORUM_MODULE_INFO',"Module Development Information");
+define('_AM_XFORUM_MODULE_STATUS',"Status");
+define('_AM_XFORUM_MODULE_DEMO',"Demo Site");
+define('_AM_XFORUM_MODULE_SUPPORT',"Official support site");
+define('_AM_XFORUM_MODULE_BUG',"Report a bug for this module");
+define('_AM_XFORUM_MODULE_FEATURE',"Suggest a new feature for this module");
+define('_AM_XFORUM_MODULE_DISCLAIMER',"Disclaimer");
+define('_AM_XFORUM_AUTHOR_WORD',"The Author's Word");
 define('_AM_XFORUM_BY','By');
-define('_AM_XFORUM_AUTHOR_WORD_EXTRA', "
+define('_AM_XFORUM_AUTHOR_WORD_EXTRA',"
 ");
 
 // admin_report.php
